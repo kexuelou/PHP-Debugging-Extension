@@ -1,0 +1,71 @@
+;--------------------------------------------------------------------
+;   Copyright (c) 2000  Microsoft Corporation
+;
+;Module:
+;   dbgexts.def
+;--------------------------------------------------------------------
+
+EXPORTS
+
+;--------------------------------------------------------------------
+; These are the extensions exported by dll
+;--------------------------------------------------------------------
+    ;show the help message
+	help
+	
+	;print the PHP calls tacks
+	dumpPhpCallStack
+	dpcs
+
+	;print current runing request URL
+	dumpCurrentRequestUrl
+	dcru
+
+	;print current running request info
+	dumpCurrentRequestInfo
+	dcri
+	
+	;print the core PHP globals
+	dumpPhpCoreGlobals
+	dpcg
+	
+	;print the HTTP globals like server variables, enviroment variables
+	dumpHTTPGlobals
+	dphgs
+
+	;print the specified HTTP global
+	dumpHttpGlobal
+	dphg
+
+	;is there a PHP page currently running
+	isPHPPageRunning
+	ispr
+
+	;print out the environment variables
+	dumpEnvVariables
+	dpev
+
+	;print out the server variables
+	dumpServerVariables
+	dpsv
+	
+	
+	;print out the cookies
+	dumpCookies
+	dpck
+	
+
+	test
+
+
+;--------------------------------------------------------------------
+;
+; these are the extension service functions provided for the debugger
+;
+;--------------------------------------------------------------------
+
+     DebugExtensionNotify
+     DebugExtensionInitialize
+     DebugExtensionUninitialize
+     KnownStructOutput
+     _EFN_Analyze

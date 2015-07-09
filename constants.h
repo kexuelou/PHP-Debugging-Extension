@@ -1,0 +1,68 @@
+
+/*
+* File automatically generated . Do not edit.
+*/
+
+#ifndef PHP_CONSTANTS_H
+#define PHP_CONSTANTS_H
+
+/*
+*Type definition for PHP error and logging constants
+*/
+
+
+typedef enum {
+	E_ERROR = 0x1,
+	E_WARNING = 0x2,
+	E_PARSE = 0x4,
+	E_NOTICE = 0x8,
+	E_CORE_ERROR = 0x10,
+	E_CORE_WARNING = 0x20,
+	E_COMPILE_ERROR = 0x40,
+	E_COMPILE_WARNING = 0x80,
+	E_USER_ERROR = 0x100,
+	E_USER_WARNING = 0x200,
+	E_USER_NOTICE = 0x400,
+	E_STRICT = 0x800,
+	E_RECOVERABLE_ERROR = 0x1000,
+	E_DEPRECATED = 0x2000,
+	E_USER_DEPRECATED = 0x4000,
+	E_ALL = 0x7fff,
+
+} PHP_ERROR_TYPE;
+
+
+/*
+*Type handle map for V8 Object type
+*/
+#define PHP_ERROR_TYPE_MAP(XX)    \
+  XX(E_ERROR, E_ERROR)			\
+  XX(E_WARNING, E_WARNING)			\
+  XX(E_PARSE, E_PARSE)			\
+  XX(E_NOTICE, E_NOTICE)			\
+  XX(E_CORE_ERROR, E_CORE_ERROR)			\
+  XX(E_CORE_WARNING, E_CORE_WARNING)			\
+  XX(E_COMPILE_ERROR, E_COMPILE_ERROR)			\
+  XX(E_COMPILE_WARNING, E_COMPILE_WARNING)			\
+  XX(E_USER_ERROR, E_USER_ERROR)			\
+  XX(E_USER_WARNING, E_USER_WARNING)			\
+  XX(E_USER_NOTICE, E_USER_NOTICE)			\
+  XX(E_STRICT, E_STRICT)			\
+  XX(E_RECOVERABLE_ERROR, E_RECOVERABLE_ERROR)			\
+  XX(E_DEPRECATED, E_DEPRECATED)			\
+  XX(E_USER_DEPRECATED, E_USER_DEPRECATED)			\
+  XX(E_ALL, E_ALL)			\
+
+
+#endif /* V8_CONSTANTS_UTIL_H */
+
+
+
+/* Track vars */
+#define TRACK_VARS_POST		0
+#define TRACK_VARS_GET		1
+#define TRACK_VARS_COOKIE	2
+#define TRACK_VARS_SERVER	3
+#define TRACK_VARS_ENV		4
+#define TRACK_VARS_FILES	5
+#define TRACK_VARS_REQUEST	6
