@@ -599,69 +599,6 @@ void printStrHttpGlobal(struct Track_Var *bucket)
 	dprintf("%s : %s\n", bucket->key, buf);
 }
 
-//
-////http://php.net/manual/en/errorfunc.constants.php
-//void dumpErrorType(ULONG64 errorType)
-//{
-//	switch (errorType)
-//	{
-//	case 1:
-//		dprintf("E_ERROR");
-//		break;
-//	case 2:
-//		dprintf("E_WARNING");
-//		break;
-//	case 4:
-//		dprintf("E_PARSE");
-//		break;
-//	case 8:
-//		dprintf("E_NOTICE");
-//		break;
-//	case 16:
-//		dprintf("E_CORE_ERROR");
-//		break;
-//	case 32:
-//		dprintf("E_CORE_WARNING");
-//		break;
-//	case 64:
-//		dprintf("E_COMPILE_ERROR");
-//		break;
-//	case 128:
-//		dprintf("E_COMPILE_WARNING");
-//		break;
-//	case 256:
-//		dprintf("E_USER_ERROR");
-//		break;
-//	case 512:
-//		dprintf("E_USER_WARNING");
-//		break;
-//	case 1024:
-//		dprintf("E_USER_NOTICE");
-//		break;
-//	case 2048:
-//		dprintf("E_STRICT");
-//		break;
-//	case 4096:
-//		dprintf("E_RECOVERABLE_ERROR");
-//		break;
-//	case 8192:
-//		dprintf("E_DEPRECATED");
-//		break;
-//	case 16384:
-//		dprintf("E_USER_DEPRECATED");
-//		break;
-//	case 32767:
-//		dprintf("E_ALL");
-//		break;
-//
-//	default:
-//		dprintf("UNKNOW");
-//		break;
-//	}
-//
-//	return;
-//}
-
 HRESULT dumpStringWithWidth(ULONG64 offSet, int width)
 {
 	CHAR mem;
