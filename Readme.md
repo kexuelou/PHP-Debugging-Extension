@@ -15,7 +15,7 @@ request_method    : GET
 query_string      :  
 cookie_data       : ARRAffinity=d47a70ebf0f6d89c53b96d106c670930dbb5081e809a9def66d1b7a77a831c9d;   WAWebSiteSID=09745f447c6546e984dbe9a8cbf02a12; __utmc=258354654; __utma=258354654.1455641795.1384996945.1385003028.1385024121.3; __utmz=258354654.1384996945.1.1.utmcsr=(direct)|utmcc
 content_length    : 0  
-path_translated   : C:\DWASFiles\Sites\eventionllc\VirtualDirectory0\site\wwwroot\index.php  
+path_translated   : C:\DWASFiles\Sites\wzhaosite\VirtualDirectory0\site\wwwroot\index.php  
 request_uri       : /index.php  
 Request_Time      : 10sec  
 
@@ -48,13 +48,13 @@ display_startup_errors  : 0
 log_errors              : 1  
 log_errors_max_len      : 1024  
 error_log               : D:\home\LogFiles\php_errors.log  
-upload_tmp_dir          : C:\DWASFiles\Sites\eventionllc\Temp  
+upload_tmp_dir          : C:\DWASFiles\Sites\wzhaosite\Temp  
 upload_max_filesize     : 2097152  
 file_uploads            : 1  
 variables_order         : GPCS  
 last_error_type         : E_WARNING  
-last_error_message      : unlink(C:\DWASFiles\Sites\eventionllc\VirtualDirectory0\site\wwwroot/wp-content/uploads/wpcf7_captcha/1696868155.txt): Permission denied  
-last_error_file         : C:\DWASFiles\Sites\eventionllc\VirtualDirectory0\site\wwwroot\wp-content\plugins\really-simple-captcha\really-simple-captcha.php  
+last_error_message      : unlink(C:\DWASFiles\Sites\wzhaosite\VirtualDirectory0\site\wwwroot/wp-content/uploads/wpcf7_captcha/1696868155.txt): Permission denied  
+last_error_file         : C:\DWASFiles\Sites\wzhaosite\VirtualDirectory0\site\wwwroot\wp-content\plugins\really-simple-captcha\really-simple-captcha.php  
 last_error_lineno       : 251  
 
 
@@ -105,7 +105,7 @@ item #41	REMOTEDEBUGGINGVERSION = 141e7d8
 item #42	APPSETTING_REMOTEDEBUGGINGVERSION = 141e858  
 item #43	ScmType = 141e8d8  
 item #44	APPSETTING_ScmType = 141e940  
-item #45	MYSQLCONNSTR_eventionllc = 141ea18  
+item #45	MYSQLCONNSTR_wzhaosite = 141ea18  
 item #46	HOME = 141eac0  
 item #47	windows_tracing_flags = 141eb28  
 item #48	windows_tracing_logfile = 141eba0  
