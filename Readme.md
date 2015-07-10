@@ -2,7 +2,7 @@
 A Windbg Extension to debugging PHP running on Windows IIS(NTS).
 
 ##Is there a request running?
-0:000> !ispr
+0:000> !ispr  
 One PHP page is currently executing.
 
 ##Request URL
