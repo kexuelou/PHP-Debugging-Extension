@@ -13,7 +13,7 @@ One PHP page is currently executing.
 0:000> !phpexts.dcri  
 request_method    : GET  
 query_string      :  
-cookie_data       : ARRAffinity=d47a70ebf0f6d89c53b96d106c670930dbb5081e809a9def66d1b7a77a831c9d;   WAWebSiteSID=09745f447c6546e984dbe9a8cbf02a12; __utmc=258354654; __utma=258354654.1455641795.1384996945.1385003028.1385024121.3; __utmz=258354654.1384996945.1.1.utmcsr=(direct)|utmcc
+cookie_data       : ARRAffinity=d47a70ebf0f6d89c53b96d106c670930dbb5081e809a9def66d1b7a77a831c9d;   WAWebSiteSID=09745f447c6546e984dbe9a8cbf02a12; __utmc=258354654; __utma=258354654.1455641795.1384996945.1385003028.1385024121.3; __utmz=258354654.1384996945.1.1.utmcsr=(direct)|utmcc  
 content_length    : 0  
 path_translated   : C:\DWASFiles\Sites\wzhaosite\VirtualDirectory0\site\wwwroot\index.php  
 request_uri       : /index.php  
