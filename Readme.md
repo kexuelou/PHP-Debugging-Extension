@@ -6,7 +6,7 @@ A Windbg Extension to debugging PHP running on Windows IIS(NTS).
 One PHP page is currently executing.
 
 ##Request URL
-0:000> !dcru
+0:000> !dcru  
 /index.php
 
 ##Detailed Request information
