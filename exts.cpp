@@ -6,7 +6,7 @@ Module:
 
   Sampe file showing couple of extension examples
   
-  //wzhao@microsoft.com added PHP function
+  //cts-wzhao@live.com added PHP debugging feature based on the sample
 -----------------------------------------------------------------------------*/
 #include "phpexts.h"
 #include "constants.h"

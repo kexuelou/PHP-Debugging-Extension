@@ -1,7 +1,4 @@
 
-/*
-* File automatically generated . Do not edit.
-*/
 
 #ifndef PHP_CONSTANTS_H
 #define PHP_CONSTANTS_H
@@ -33,7 +30,7 @@ typedef enum {
 
 
 /*
-*Type handle map for V8 Object type
+*Type ERROR map
 */
 #define PHP_ERROR_TYPE_MAP(XX)    \
   XX(E_ERROR, E_ERROR)			\
@@ -54,7 +51,7 @@ typedef enum {
   XX(E_ALL, E_ALL)			\
 
 
-#endif /* V8_CONSTANTS_UTIL_H */
+#endif /* PHP_ERROR_TYPE_MAP */
 
 
 
